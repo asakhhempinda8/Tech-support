@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Support Request Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #004080; /* Dark Blue */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #008000; /* Green */
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #005f00; /* Darker Green */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            background-color: #004080; /* Dark Blue */
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #003366; /* Darker Blue */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004080; /* Dark Blue */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Tech Support Request Form</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="escalation_procedure.html">Escalation Procedure</a>
+        <a href="troubleshooting.html">Troubleshooting Questions</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Support Request Form</title>
+</head>
+<body>
+  
+
+    <form action="#" method="post">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time"><br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname"><br><br>
+
+        <label for="department">Call Department:</label>
+        <input type="text" id="department" name="department"><br><br>
+
+        <label for="title">Incident Title:</label>
+        <input type="text" id="title" name="title"><br><br>
+
+        <label for="description">Incident Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+        <label>Urgency:</label><br>
+        <input type="radio" id="very_urgent" name="urgency" value="Very Urgent">
+        <label for="very_urgent">Very Urgent</label><br>
+        
+        <input type="radio" id="average_urgent" name="urgency" value="Average Urgent">
+        <label for="average_urgent">Average Urgent</label><br>
+        
+        <input type="radio" id="not_urgent" name="urgency" value="Not Urgent">
+        <label for="not_urgent">Not Urgent</label><br><br>
+
+        <label>Priority:</label><br>
+        <input type="radio" id="high" name="priority" value="High">
+        <label for="high">High</label><br>
+        
+        <input type="radio" id="average" name="priority" value="Average">
+        <label for="average">Average</label><br>
+        
+        <input type="radio" id="low" name="priority" value="Low">
+        <label for="low">Low</label><br><br>
+
+        <label for="cause">Cause of the Incident (if applicable):</label>
+        <input type="text" id="cause" name="cause"><br><br>
+
+        <label>Status:</label><br>
+        <input type="radio" id="completed" name="status" value="Completed">
+        <label for="completed">Completed</label><br>
+        
+        <input type="radio" id="cancelled" name="status" value="Cancelled">
+        <label for="cancelled">Cancelled</label><br>
+        
+        <input type="radio" id="escalated" name="status" value="Escalated">
+        <label for="escalated">Escalated</label><br><br>
+
+        <label for="solution">Incident Solution:</label><br>
+        <textarea id="solution" name="solution" rows="4" cols="50"></textarea><br><br>
+
+        <label for="reason">Reason for Cancellation:</label><br>
+        <textarea id="reason" name="reason" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+    <footer>
+        <p>&copy; 2024 Tech Support. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
